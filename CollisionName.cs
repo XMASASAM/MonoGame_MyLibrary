@@ -6,6 +6,6 @@ namespace MDclass.CollisionClass
     /// </summary>
     public enum CollisionName
     {
-        None=0,TouchDot,BackGround
+        None=0
     }
 }

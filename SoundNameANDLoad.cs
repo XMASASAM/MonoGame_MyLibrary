@@ -7,7 +7,7 @@ namespace MDclass.AudioClass
     /// </summary>
     public enum BGMName
     {
-        isekai=0
+
     }
 
     /// <summary>
@@ -15,7 +15,7 @@ namespace MDclass.AudioClass
     /// </summary>
     public enum SEName
     {
-        water2=0
+
     }
 
 
@@ -26,9 +26,7 @@ namespace MDclass.AudioClass
         /// </summary>
         public void DetailLoad()
         {
-            
-       //   SetBGM("isekai",0.2);
-       //   SetSE("water2");
+
         }
     }
 
