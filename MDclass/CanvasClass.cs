@@ -2,12 +2,12 @@
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework.Graphics;
-namespace MDclass.GeometricClass
+namespace MDclass.CanvasClass
 {
     /// <summary>
     /// 絵を描くクラス
     /// </summary>
-    public class Geometric
+    public class Canvas
     {
         static GraphicsDevice graphics;
         //描いたデータ
@@ -28,7 +28,7 @@ namespace MDclass.GeometricClass
         /// </summary>
         /// <param name="x">幅</param>
         /// <param name="y">高さ</param>
-        public Geometric(int x,int y)
+        public Canvas(int x,int y)
         {
             //値の初期設定
             pixcel = new Color[y, x];
